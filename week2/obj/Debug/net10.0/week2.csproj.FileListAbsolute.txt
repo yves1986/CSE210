@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\CS210\week2\bin\Debug\net10.0\week2.exe
+C:\Users\HP\Desktop\CS210\week2\bin\Debug\net10.0\week2.deps.json
+C:\Users\HP\Desktop\CS210\week2\bin\Debug\net10.0\week2.runtimeconfig.json
+C:\Users\HP\Desktop\CS210\week2\bin\Debug\net10.0\week2.dll
+C:\Users\HP\Desktop\CS210\week2\bin\Debug\net10.0\week2.pdb
+C:\Users\HP\Desktop\CS210\week2\obj\Debug\net10.0\week2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\CS210\week2\obj\Debug\net10.0\week2.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\CS210\week2\obj\Debug\net10.0\week2.AssemblyInfo.cs
+C:\Users\HP\Desktop\CS210\week2\obj\Debug\net10.0\week2.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\CS210\week2\obj\Debug\net10.0\week2.dll
+C:\Users\HP\Desktop\CS210\week2\obj\Debug\net10.0\refint\week2.dll
+C:\Users\HP\Desktop\CS210\week2\obj\Debug\net10.0\week2.pdb
+C:\Users\HP\Desktop\CS210\week2\obj\Debug\net10.0\week2.genruntimeconfig.cache
+C:\Users\HP\Desktop\CS210\week2\obj\Debug\net10.0\ref\week2.dll
