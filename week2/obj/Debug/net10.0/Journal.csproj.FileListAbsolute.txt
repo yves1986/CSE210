@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\bin\Debug\net10.0\Journal.exe
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\bin\Debug\net10.0\Journal.deps.json
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\bin\Debug\net10.0\Journal.runtimeconfig.json
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\bin\Debug\net10.0\Journal.dll
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\bin\Debug\net10.0\Journal.pdb
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\obj\Debug\net10.0\Journal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\obj\Debug\net10.0\Journal.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\obj\Debug\net10.0\Journal.AssemblyInfo.cs
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\obj\Debug\net10.0\Journal.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\obj\Debug\net10.0\Journal.sourcelink.json
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\obj\Debug\net10.0\Journal.dll
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\obj\Debug\net10.0\refint\Journal.dll
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\obj\Debug\net10.0\Journal.pdb
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\obj\Debug\net10.0\Journal.genruntimeconfig.cache
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week2\obj\Debug\net10.0\ref\Journal.dll
