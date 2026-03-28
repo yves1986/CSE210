@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\bin\Debug\net8.0\ScriptureMemorizer.exe
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\bin\Debug\net8.0\ScriptureMemorizer.deps.json
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\bin\Debug\net8.0\ScriptureMemorizer.runtimeconfig.json
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\bin\Debug\net8.0\ScriptureMemorizer.dll
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\bin\Debug\net8.0\ScriptureMemorizer.pdb
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\obj\Debug\net8.0\ScriptureMemorizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\obj\Debug\net8.0\ScriptureMemorizer.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\obj\Debug\net8.0\ScriptureMemorizer.AssemblyInfo.cs
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\obj\Debug\net8.0\ScriptureMemorizer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\obj\Debug\net8.0\ScriptureMemorizer.sourcelink.json
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\obj\Debug\net8.0\ScriptureMemorizer.dll
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\obj\Debug\net8.0\refint\ScriptureMemorizer.dll
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\obj\Debug\net8.0\ScriptureMemorizer.pdb
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\obj\Debug\net8.0\ScriptureMemorizer.genruntimeconfig.cache
+C:\Users\HP\Desktop\Nouveau dossier (2)\CSE210\week3\ScriptureMemorizer\obj\Debug\net8.0\ref\ScriptureMemorizer.dll
