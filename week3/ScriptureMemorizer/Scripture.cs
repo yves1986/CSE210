@@ -64,9 +64,19 @@ public class Scripture
         {
             if (word.IsHidden())
             {
-                // Since Word doesn't have an unhide method, we need to recreate
-                // Alternatively, we could add an Unhide() method to Word class
+                word.Show();
             }
         }
+    }
+    
+    // Add helper methods for progress tracking
+    public int GetHiddenWordCount()
+    {
+        return _words.Count(w => w.IsHidden());
+    }
+    
+    public int GetTotalWordCount()
+    {
+        return _words.Count;
     }
 }

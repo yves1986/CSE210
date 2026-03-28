@@ -11,6 +11,8 @@ class Program
         // 3. Gradual hiding - Hides 3 words at a time for a smoother learning curve
         // 4. User-friendly display - Shows underscores matching word length for better retention
         // 5. Statistics - Displays memorization progress percentage
+        // 6. Reset functionality - Allows user to start over with a new scripture
+        // 7. Scripture library with diverse passages (single and multiple verses)
         
         Console.WriteLine("Welcome to the Scripture Memorizer!\n");
         
@@ -25,7 +27,6 @@ class Program
         Console.WriteLine("Press Enter to hide words, type 'quit' to exit, or 'reset' to start over.\n");
         
         bool running = true;
-        int totalWords = GetTotalWordCount(currentScripture);
         
         while (running)
         {
@@ -33,7 +34,8 @@ class Program
             Console.WriteLine(currentScripture.GetDisplayText());
             
             // Display progress percentage (CREATIVITY: Progress tracking)
-            int hiddenWords = GetHiddenWordCount(currentScripture);
+            int hiddenWords = currentScripture.GetHiddenWordCount();
+            int totalWords = currentScripture.GetTotalWordCount();
             double percentage = (double)hiddenWords / totalWords * 100;
             Console.WriteLine($"\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
             Console.WriteLine($"📊 Progress: {hiddenWords}/{totalWords} words memorized ({percentage:F1}%)");
@@ -60,7 +62,6 @@ class Program
             {
                 // CREATIVITY: Reset functionality to start over with a new scripture
                 currentScripture = scriptures[random.Next(scriptures.Count)];
-                totalWords = GetTotalWordCount(currentScripture);
                 Console.Clear();
                 Console.WriteLine("🔄 Starting a new scripture! Good luck!\n");
                 continue;
@@ -110,31 +111,5 @@ class Program
         scriptures.Add(new Scripture(ref5, text5));
         
         return scriptures;
-    }
-    
-    static int GetHiddenWordCount(Scripture scripture)
-    {
-        // Helper method to count hidden words
-        // Since we can't directly access the _words list, we'll use the display method
-        // A better approach would be to add a method to Scripture class
-        // This is a workaround for demonstration
-        string displayText = scripture.GetDisplayText();
-        int underscoreCount = 0;
-        foreach (char c in displayText)
-        {
-            if (c == '_')
-                underscoreCount++;
-        }
-        // Rough estimate - not perfect but works for the creative feature
-        return underscoreCount;
-    }
-    
-    static int GetTotalWordCount(Scripture scripture)
-    {
-        // Helper method to get total words
-        string displayText = scripture.GetDisplayText();
-        string[] words = displayText.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries);
-        // Subtract reference words (first line) from total
-        return words.Length - 1; // Rough estimate
     }
 }
