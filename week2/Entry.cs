@@ -1,23 +1,25 @@
+using System;
+
 public class Entry
 {
     public string _date;
-    public string _promptText;
-    public string _entryText;
+    public string _prompt;
+    public string _response;
 
-    public Entry(string date, string promptText, string entryText)
+    public Entry(string date, string prompt, string response)
     {
         _date = date;
-        _promptText = promptText;
-        _entryText = entryText;
+        _prompt = prompt;
+        _response = response;
     }
 
     public string GetDisplayText()
     {
-        return $"Date: {_date}\nPrompt: {_promptText}\nResponse: {_entryText}\n";
+        return $"Date: {_date}\nPrompt: {_prompt}\nResponse: {_response}";
     }
 
     public string GetFileRepresentation()
     {
-        return $"{_date}|{_promptText}|{_entryText}";
+        return $"{_date}|{_prompt}|{_response}";
     }
 }
