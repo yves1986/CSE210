@@ -19,9 +19,8 @@ class Program
             Console.WriteLine("5. Quit");
             Console.Write("Choose an option: ");
 
-            string choice = Console.ReadLine();
-
-            Activity activity = null;
+            string choice = Console.ReadLine() ?? "";     // ← CORRIGÉ ligne 22
+            Activity? activity = null;                    // ← CORRIGÉ ligne 23
 
             switch (choice)
             {
