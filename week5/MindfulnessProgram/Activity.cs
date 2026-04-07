@@ -23,8 +23,8 @@ public abstract class Activity
         Console.WriteLine(_description);
         Console.WriteLine();
         Console.Write("How long, in seconds, would you like for your session? ");
-        _duration = int.Parse(Console.ReadLine());
-        
+        _duration = int.Parse(Console.ReadLine() ?? "0");
+
         Console.Clear();
         Console.WriteLine("Get ready...");
         ShowSpinner(3);

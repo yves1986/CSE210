@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\CSE210\\week2\\Journal.csproj",
-      "projectName": "Journal",
-      "projectPath": "C:\\Users\\HP\\Desktop\\CSE210\\week2\\Journal.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\CSE210\\week4\\OnlineOrdering\\OnlineOrdering.csproj",
+      "projectName": "OnlineOrdering",
+      "projectPath": "C:\\Users\\HP\\Desktop\\CSE210\\week4\\OnlineOrdering\\OnlineOrdering.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\CSE210\\week2\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\CSE210\\week4\\OnlineOrdering\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

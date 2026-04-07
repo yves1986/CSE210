@@ -43,7 +43,7 @@ public class ListingActivity : Activity
         while (DateTime.Now < endTime)
         {
             Console.Write("> ");
-            string input = Console.ReadLine();
+            string input = Console.ReadLine() ?? "";
             if (!string.IsNullOrWhiteSpace(input))
                 items.Add(input);
         }

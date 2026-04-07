@@ -1,0 +1,63 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week2", "week2", "{007263F2-9EA1-2280-7482-69F129D4EE28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week3", "week3", "{B97A94D1-D783-F34A-A832-561BBE27D2D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week4", "week4", "{14B2018A-4E18-6890-0D93-A6F910764DD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week5", "week5", "{74193BF6-5229-CF04-E684-3ACD8A549AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journal", "week2\Journal.csproj", "{364A7DBB-2E1B-0A5C-9AE0-F00DE47D61F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptureMemorizer", "week3\ScriptureMemorizer\ScriptureMemorizer.csproj", "{210DC39C-0CFE-81FD-643E-F7AE1E2046CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineOrdering", "week4\OnlineOrdering\OnlineOrdering.csproj", "{D7C6A4BC-62D8-DE5D-05A0-65656549ABCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeVideos", "week4\YouTubeVideos\YouTubeVideos.csproj", "{E88B2D94-CFB0-D4CA-2A12-ECA4E973C228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindfulnessProgram", "week5\MindfulnessProgram\MindfulnessProgram.csproj", "{B46ED27B-A275-7CE3-21E3-BE68ABDF3A93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{364A7DBB-2E1B-0A5C-9AE0-F00DE47D61F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364A7DBB-2E1B-0A5C-9AE0-F00DE47D61F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364A7DBB-2E1B-0A5C-9AE0-F00DE47D61F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364A7DBB-2E1B-0A5C-9AE0-F00DE47D61F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210DC39C-0CFE-81FD-643E-F7AE1E2046CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210DC39C-0CFE-81FD-643E-F7AE1E2046CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210DC39C-0CFE-81FD-643E-F7AE1E2046CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210DC39C-0CFE-81FD-643E-F7AE1E2046CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C6A4BC-62D8-DE5D-05A0-65656549ABCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C6A4BC-62D8-DE5D-05A0-65656549ABCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C6A4BC-62D8-DE5D-05A0-65656549ABCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C6A4BC-62D8-DE5D-05A0-65656549ABCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88B2D94-CFB0-D4CA-2A12-ECA4E973C228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88B2D94-CFB0-D4CA-2A12-ECA4E973C228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88B2D94-CFB0-D4CA-2A12-ECA4E973C228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88B2D94-CFB0-D4CA-2A12-ECA4E973C228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46ED27B-A275-7CE3-21E3-BE68ABDF3A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46ED27B-A275-7CE3-21E3-BE68ABDF3A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46ED27B-A275-7CE3-21E3-BE68ABDF3A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46ED27B-A275-7CE3-21E3-BE68ABDF3A93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{364A7DBB-2E1B-0A5C-9AE0-F00DE47D61F1} = {007263F2-9EA1-2280-7482-69F129D4EE28}
+		{210DC39C-0CFE-81FD-643E-F7AE1E2046CE} = {B97A94D1-D783-F34A-A832-561BBE27D2D2}
+		{D7C6A4BC-62D8-DE5D-05A0-65656549ABCA} = {14B2018A-4E18-6890-0D93-A6F910764DD8}
+		{E88B2D94-CFB0-D4CA-2A12-ECA4E973C228} = {14B2018A-4E18-6890-0D93-A6F910764DD8}
+		{B46ED27B-A275-7CE3-21E3-BE68ABDF3A93} = {74193BF6-5229-CF04-E684-3ACD8A549AE2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {613087D3-715B-46B8-ACBC-5C5DE0BE920D}
+	EndGlobalSection
+EndGlobal

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Nouveau dossier (2)\\CSE210\\week4\\YouTubeVideos\\YouTubeVideos.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\CSE210\\week4\\YouTubeVideos\\YouTubeVideos.csproj",
       "projectName": "YouTubeVideos",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Nouveau dossier (2)\\CSE210\\week4\\YouTubeVideos\\YouTubeVideos.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\CSE210\\week4\\YouTubeVideos\\YouTubeVideos.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Nouveau dossier (2)\\CSE210\\week4\\YouTubeVideos\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\CSE210\\week4\\YouTubeVideos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

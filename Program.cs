@@ -26,7 +26,7 @@ class Program
             Console.WriteLine("4. View Activity Log");
             Console.WriteLine("5. Quit");
             Console.Write("Choose an option: ");
-            
+
             string choice = Console.ReadLine();
 
             Activity activity = null;
