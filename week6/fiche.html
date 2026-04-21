@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme de formation - Microsoft Office</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #e6e9f0;
+            padding: 40px 20px;
+        }
+
+        .document {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        /* En-tête principal */
+        .header {
+            background: linear-gradient(135deg, #0f3b2c, #1e6b4c);
+            color: white;
+            padding: 35px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .header h2 {
+            font-size: 22px;
+            font-weight: normal;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        .header .infos {
+            background: rgba(255, 255, 255, 0.2);
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        /* Informations générales */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            background: #f4f7fc;
+            padding: 25px 30px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .info-card {
+            background: white;
+            padding: 12px 18px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid #1e6b4c;
+        }
+
+        .info-card strong {
+            color: #1e6b4c;
+            display: block;
+            font-size: 14px;
+        }
+
+        .info-card span {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        /* Contenu principal */
+        .content {
+            padding: 25px 30px;
+        }
+
+        h3 {
+            color: #1e6b4c;
+            font-size: 22px;
+            margin: 25px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #1e6b4c;
+        }
+
+        h4 {
+            color: #0f3b2c;
+            font-size: 18px;
+            margin: 20px 0 10px 0;
+            background: #eef5f2;
+            padding: 8px 12px;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+
+        th {
+            background: #1e6b4c;
+            color: white;
+            padding: 12px 8px;
+            text-align: left;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 10px 8px;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        .badge {
+            background: #1e6b4c;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            display: inline-block;
+            margin: 3px;
+        }
+
+        .jour {
+            background: #0f3b2c;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 25px 0 15px 0;
+            display: inline-block;
+        }
+
+        .footer {
+            background: #0f3b2c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        .contact {
+            background: #eef5f2;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+                margin: 0;
+            }
+
+            .document {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .header {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            th {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .jour {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .badge {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="document">
+        <!-- EN-TÊTE -->
+        <div class="header">
+            <h1>📘 PROGRAMME DE FORMATION</h1>
+            <h2>MICROSOFT OFFICE - NIVEAU COMPLET</h2>
+            <div class="infos">
+                📅 5 jours intensifs | 9h00 - 12h00 & 14h00 - 16h30
+            </div>
+        </div>
+
+        <!-- INFOS GÉNÉRALES -->
+        <div class="info-grid">
+            <div class="info-card"><strong>🎯 Public cible</strong><span>Professionnels, assistants, managers,
+                    étudiants</span></div>
+            <div class="info-card"><strong>📋 Prérequis</strong><span>Bases de l'ordinateur (souris, clavier)</span>
+            </div>
+            <div class="info-card"><strong>⏱️ Durée totale</strong><span>28h30 de formation</span></div>
+            <div class="info-card"><strong>📜 Certification</strong><span>Attestation de fin de formation</span></div>
+            <div class="info-card"><strong>👨‍🏫 Formateur</strong><span>GNENESSEMIN DJEAMIN YVES</span></div>
+            <div class="info-card"><strong>📞 Contact</strong><span>07 10 07 65 50</span></div>
+        </div>
+
+        <div class="content">
+            <!-- OBJECTIFS -->
+            <h3>🎯 OBJECTIFS PÉDAGOGIQUES</h3>
+            <ul style="margin-left: 25px; line-height: 1.8;">
+                <li>✅ Maîtriser <strong>Word</strong> pour créer des documents professionnels (CV, rapports,
+                    publipostage)</li>
+                <li>✅ Utiliser <strong>Excel</strong> pour analyser des données (formules avancées, TCD, graphiques)
+                </li>
+                <li>✅ Concevoir des <strong>présentations PowerPoint</strong> percutantes et animées</li>
+                <li>✅ Gérer ses emails et agendas avec <strong>Outlook</strong></li>
+                <li>✅ Automatiser des tâches et travailler entre les logiciels Office</li>
+            </ul>
+
+            <!-- PROGRAMME DÉTAILLÉ -->
+            <h3>📅 PROGRAMME DÉTAILLÉ</h3>
+
+            <!-- JOUR 1 -->
+            <div class="jour">🔵 JOUR 1 - MICROSOFT WORD (Fondamentaux)</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horaire</th>
+                        <th>Durée</th>
+                        <th>Module</th>
+                        <th>Contenu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9h00 - 10h30</td>
+                        <td>1h30</td>
+                        <td>Prise en main</td>
+                        <td>Interface, ruban, barre d'outils accès rapide</td>
+                    </tr>
+                    <tr>
+                        <td>10h30 - 10h45</td>
+                        <td>15 min</td>
+                        <td>Pause</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>10h45 - 12h00</td>
+                        <td>1h15</td>
+                        <td>Mise en forme</td>
+                        <td>Polices, paragraphes, interlignes, bordures</td>
+                    </tr>
+                    <tr>
+                        <td>12h00 - 14h00</td>
+                        <td>2h00</td>
+                        <td>Déjeuner</td>
+                        <td>Pause repas</td>
+                    </tr>
+                    <tr>
+                        <td>14h00 - 15h30</td>
+                        <td>1h30</td>
+                        <td>Mise en page</td>
+                        <td>En-têtes, pieds de page, numérotation, colonnes</td>
+                    </tr>
+                    <tr>
+                        <td>15h30 - 15h45</td>
+                        <td>15 min</td>
+                        <td>Pause</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>15h45 - 16h30</td>
+                        <td>45 min</td>
+                        <td>Exercice</td>
+                        <td>Création CV + lettre de motivation</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- JOUR 2 -->
+            <div class="jour">🟢 JOUR 2 - WORD AVANCÉ + EXCEL DÉBUTANT</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horaire</th>
+                        <th>Durée</th>
+                        <th>Module</th>
+                        <th>Contenu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9h00 - 10h30</td>
+                        <td>1h30</td>
+                        <td>Word - Tables</td>
+                        <td>Création, mise en forme, fusion de cellules</td>
+                    </tr>
+                    <tr>
+                        <td>10h30 - 10h45</td>
+                        <td>15 min</td>
+                        <td>Pause</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>10h45 - 12h00</td>
+                        <td>1h15</td>
+                        <td>Publipostage</td>
+                        <td>Fusion de lettres, étiquettes avec Excel</td>
+                    </tr>
+                    <tr>
+                        <td>12h00 - 14h00</td>
+                        <td>2h00</td>
+                        <td>Déjeuner</td>
+                        <td>Pause repas</td>
+                    </tr>
+                    <tr>
+                        <td>14h00 - 15h30</td>
+                        <td>1h30</td>
+                        <td>Excel - Découverte</td>
+                        <td>Interface, classeur, feuilles, saisie de données</td>
+                    </tr>
+                    <tr>
+                        <td>15h30 - 15h45</td>
+                        <td>15 min</td>
+                        <td>Pause</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>15h45 - 16h30</td>
+                        <td>45 min</td>
+                        <td>Formules de base</td>
+                        <td>SOMME, MOYENNE, MAX, MIN</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- JOUR 3 -->
+            <div class="jour">🟡 JOUR 3 - EXCEL INTERMÉDIAIRE</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horaire</th>
+                        <th>Durée</th>
+                        <th>Module</th>
+                        <th>Contenu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9h00 - 10h30</td>
+                        <td>1h30</td>
+                        <td>Formatage Excel</td>
+                        <td>Mise en forme conditionnelle, formats nombres</td>
+                    </tr>
+                    <tr>
+                        <td>10h30 - 10h45</td>
+                        <td>15 min</td>
+                        <td>Pause</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>10h45 - 12h00</td>
+                        <td>1h15</td>
+                        <td>Formules avancées</td>
+                        <td>SI, RECHERCHEV, RECHERCHEX, SIERREUR</td>
+                    </tr>
+                    <tr>
+                        <td>12h00 - 14h00</td>
+                        <td>2h00</td>
+                        <td>Déjeuner</td>
+                        <td>Pause repas</td>
+                    </tr>
+                    <tr>
+                        <td>14h00 - 15h30</td>
+                        <td>1h30</td>
+                        <td>Tableaux croisés</td>
+                        <td>TCD, segments, graphiques croisés dynamiques</td>
+                    </tr>
+                    <tr>
+                        <td>15h30 - 15h45</td>
+                        <td>15 min</td>
+                        <td>Pause</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>15h45 - 16h30</td>
+                        <td>45 min</td>
+                        <td>Graphiques</td>
+                        <td>Création et personnalisation (camembert, histogramme)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- JOUR 4 -->
+            <div class="jour">🟠 JOUR 4 - EXCEL AVANCÉ + POWERPOINT</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horaire</th>
+                        <th>Durée</th>
+                        <th>Module</th>
+                        <th>Contenu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9h00 - 10h30</td>
+                        <td>1h30</td>
+                        <td>Gestion données</td>
+                        <td>Filtres, tris, validation données, suppression doublons</td>
+                    </tr>
+                    <tr>
+                        <td>10h30 - 10h45</td>
+                        <td>15 min</td>
+                        <td>Pause</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>10h45 - 12h00</td>
+                        <td>1h15</td>
+                        <td>Power Query</td>
+                        <td>Import et transformation de données</td>
+                    </tr>
+                    <tr>
+                        <td>12h00 - 14h00</td>
+                        <td>2h00</td>
+                        <td>Déjeuner</td>
+                        <td>Pause repas</td>
+                    </tr>
+                    <tr>
+                        <td>14h00 - 15h30</td>
+                        <td>1h30</td>
+                        <td>PowerPoint - Découverte</td>
+                        <td>Interface, masque, thèmes, modèles</td>
+                    </tr>
+                    <tr>
+                        <td>15h30 - 15h45</td>
+                        <td>15 min</td>
+                        <td>Pause</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>15h45 - 16h30</td>
+                        <td>45 min</td>
+                        <td>Insertion</td>
+                        <td>Images, SmartArt, graphiques Excel liés</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- JOUR 5 -->
+            <div class="jour">🔴 JOUR 5 - POWERPOINT AVANCÉ + OUTLOOK + INTÉGRATION</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horaire</th>
+                        <th>Durée</th>
+                        <th>Module</th>
+                        <th>Contenu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9h00 - 10h30</td>
+                        <td>1h30</td>
+                        <td>Animations</td>
+                        <td>Transitions, animations personnalisées, minutage</td>
+                    </tr>
+                    <tr>
+                        <td>10h30 - 10h45</td>
+                        <td>15 min</td>
+                        <td>Pause</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>10h45 - 12h00</td>
+                        <td>1h15</td>
+                        <td>Présentation</td>
+                        <td>Enregistrement diaporama, création vidéo</td>
+                    </tr>
+                    <tr>
+                        <td>12h00 - 14h00</td>
+                        <td>2h00</td>
+                        <td>Déjeuner</td>
+                        <td>Pause repas</td>
+                    </tr>
+                    <tr>
+                        <td>14h00 - 15h30</td>
+                        <td>1h30</td>
+                        <td>Outlook</td>
+                        <td>Emails, classement, règles, signatures, calendriers</td>
+                    </tr>
+                    <tr>
+                        <td>15h30 - 15h45</td>
+                        <td>15 min</td>
+                        <td>Pause</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>15h45 - 16h30</td>
+                        <td>45 min</td>
+                        <td>Intégration + Évaluation</td>
+                        <td>Copier/coller lié, création PDF, projet final</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- RESSOURCES -->
+            <h3>📚 SUPPORTS FOURNIS</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 12px; margin: 15px 0;">
+                <span class="badge">📖 Livret du participant (150 pages)</span>
+                <span class="badge">💾 Clé USB avec exercices corrigés</span>
+                <span class="badge">🎓 Attestation de formation</span>
+                <span class="badge">📧 Support 1 mois après formation</span>
+                <span class="badge">☁️ Accès en ligne aux documents</span>
+            </div>
+
+            <!-- ÉVALUATION -->
+            <h3>✅ ÉVALUATION DES ACQUIS</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Description</th>
+                        <th>Coefficient</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Exercices pratiques</td>
+                        <td>Réalisés tout au long de la formation</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>Étude de cas / Projet final</td>
+                        <td>Dossier complet (Word, Excel, PowerPoint, Outlook)</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>Assiduité et participation</td>
+                        <td>Présence et implication</td>
+                        <td>20%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- CONTACT -->
+            <div class="contact">
+                <h4 style="background: none; margin: 0 0 10px 0; color: #0f3b2c;">📞 CONTACT & INSCRIPTION</h4>
+                <p><strong>Formateur :</strong> GNENESSEMIN DJEAMIN YVES</p>
+                <p><strong>Téléphone :</strong> 07 10 07 65 50</p>
+                <p><strong>Email :</strong> yves.djeamin@email.com</p>
+                <p><strong>Disponibilité :</strong> Formation intra-entreprise ou inter-entreprises</p>
+            </div>
+
+            <!-- TARIFS INDICATIFS -->
+            <h3>💰 TARIFS INDICATIFS</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Formule</th>
+                        <th>Tarif</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Inter-entreprise (par personne)</td>
+                        <td>450€ HT</td>
+                    </tr>
+                    <tr>
+                        <td>Intra-entreprise (groupe jusqu'à 10 pers)</td>
+                        <td>2 500€ HT</td>
+                    </tr>
+                    <tr>
+                        <td>Particulier</td>
+                        <td>350€ HT</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="footer">
+            © 2025 - Programme de formation Microsoft Office | GNENESSEMIN DJEAMIN YVES
+        </div>
+    </div>
+</body>
+
+</html>
